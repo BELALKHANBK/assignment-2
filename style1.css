@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #F7F7F7;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+.contact-div {
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+
+.btn {
+    width: 7em;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 17px;
+    border: none;
+    background-color: orange;
+}
+
+.imglogo {
+    width: 40px;
+    height: 45px;
+    margin-bottom: 26px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 80px;
+}
+
+nav ul li a {
+    color: #060809;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.active,
+a:hover {
+    background: rgb(144, 99, 99);
+    transition: .5s;
+}
+
+
+/*banner section*/
+
+div img {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 40px;
+    margin-top: 5em;
+}
+
+.banner {
+    margin-left: 7em;
+}
+
+.banner-s p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.banner-s .p1 {
+    font-size: 20px;
+}
+
+.sp1 {
+    color: orange;
+}
+
+.sp2 {
+    color: skyblue;
+}
+
+.banner-img {
+    height: 20em;
+}
+
+
+/* mini device ar jonno style*/
+
+.checkbtn {
+    font-size: 30px;
+    color: #0a0d0f;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*main contact */
+
+.main {
+    display: flex;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 22px;
+    gap: 30px;
+    background-image: url(assets/bg.png);
+}
+
+.belal {
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+}
+
+.Curriculum {
+    text-align: center;
+    margin-top: 4em;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.div1 {
+    border: none;
+    gap: 10px;
+    position: relative;
+    height: 70vh;
+    border-radius: 10px;
+    background: linear-gradient(hsl(198, 65%, 45%) 4%, #fabebe 80%);
+}
+
+.img1,
+img {
+    width: 7em;
+    height: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #808080;
+}
+
+.btn1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: #0082e6;
+}
+
+.btn2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: hsl(138, 100%, 45%);
+    font-weight: bold;
+}
+
+.btn3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: #e60000;
+}
+
+.div2 {
+    border: 1px solid red;
+    border: none;
+    gap: 10px;
+    position: relative;
+    height: 70vh;
+    border-radius: 10px;
+    background: linear-gradient(#A44AA0 4%, hsl(192, 48%, 92%) 80%);
+}
+
+.div3 {
+    border: 1px solid red;
+    border: none;
+    gap: 10px;
+    position: relative;
+    height: 70vh;
+    border-radius: 10px;
+    background: linear-gradient(#DEF5FF 4%, #680303 80%);
+}
+
+.less-then {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 3px;
+    color: white;
+}
+
+.b1 {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 60%;
+    background-color: #0082e6;
+}
+
+
+/*madia section*/
+
+@media(max-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .4s;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+        margin: 50px;
+        line-height: 30px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .btn {
+        display: none;
+    }
+    nav {
+        flex-direction: row-reverse;
+    }
+    .logo-div {
+        margin-right: 8em;
+    }
+}
