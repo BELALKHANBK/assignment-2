@@ -133,7 +133,7 @@ div img {
     justify-content: space-around;
     align-content: center;
     margin: 0 40px;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 .banner {
@@ -171,7 +171,7 @@ div img {
     border-radius: 5px;
     margin-top: 20px;
     position: relative;
-    left: 20em;
+    left: 14em;
     cursor: pointer;
 }
 
@@ -317,6 +317,10 @@ img {
 
 
 /*our atorise*/
+
+.aa {
+    background-image: url(assets/bg.png);
+}
 
 .our-section {
     max-width: 1040px;
@@ -587,6 +591,8 @@ h2 {
     }
     .footer1 {
         flex-direction: column;
+        position: relative;
+        bottom: 3em;
     }
     .fp12 {
         position: relative;
@@ -614,7 +620,7 @@ h2 {
     }
     .fsp {
         position: relative;
-        right: 4em;
+        right: 4.8em;
         top: 1em;
         font-weight: bold;
         font-size: 27px;
@@ -622,13 +628,14 @@ h2 {
     }
     .fh11 {
         position: relative;
-        right: 2em;
+        right: 3.6em;
         margin-top: 3em;
         color: white;
     }
     .footer-img {
         position: relative;
-        right: 4em;
-        width: 74px;
+        right: 7em;
+        width: 44px;
+        height: 3em;
     }
 }
